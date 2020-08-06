@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+/* styles the root html  can be overwritten */
+:root {
+  /* with base font of 16px */
+  font-size: 62.5%;
+}
+
+/* Font sizes can be given in  
+px - absolute value , fix size dont go with device, 
+rem - calculate final value based on root element font size (multiplies root size) 
+em - calculate final value based on parent  */
+
+body {
+  background-color: #ddd;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  /* multiplies the font size */
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  /* 2 + root font size */
+  font-size: 2.5rem;
+}
+/* direction rtl für sprachen oder ltr für sprachen wie arabisch */
+
+.special-headline {
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  text-shadow: 3px 4px 9px #0f9ad0;
+}
+
+.three-d-headline {
+    font-size: 3rem;
+    font-style: italic;
+    font font-weight: 300;
+    text-shadow: 3px 4px 9px #0f9ad0, 20px 8px 8px #09b78fc2;
+}
+
